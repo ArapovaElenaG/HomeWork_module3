@@ -1,0 +1,179 @@
+* {
+	font-family: open sans, helvetica, arial, sans-serif;
+}
+
+@font-face {
+	src: url('../fonts/BOD_R.TTF');
+	font-family: "Bodoni";
+}
+
+body {
+	margin: 0px;
+	background-image: url("../img/88.jpg");
+	background-attachment: fixed;
+}
+
+.wrapper {
+	background-color: #08d6d4;
+
+	height: 5vh;
+	margin: 0px;
+	
+	display: flex;
+	justify-content: space-around;
+	
+	position: sticky;
+	top: 0px;
+		
+	z-index: 2;
+}
+
+.item {
+	/*list-style-type: none;*/
+	line-height: 5vh;
+}
+
+#link_header {
+	color: #1b3254;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#link_header:hover {
+	color: white;
+	font-weight: bold;
+}
+
+#link_main {
+	color: #1b3254;
+}
+
+#link_main:hover {
+	color: #08d6d4;
+}
+
+main {
+	margin: 0px;
+}
+
+.container_top {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 30px;
+}
+
+@media screen and (max-width: 610px) {
+	.container_top, .container {
+	flex-wrap: wrap;
+	}
+
+}
+
+.first_column_top {
+	width: 900px;
+	padding: 10px 10px 10px;
+	/*border: thin solid;*/
+}
+
+
+@media screen and (max-width: 1100px) {
+	.first_column_top {
+	min-width: 250px;
+	}
+}
+
+.second_column_top {
+	width: 400px;
+	min-width: 250px;
+	padding: 20px 10px 10px;
+	margin: 0px;
+	/*border: thin solid;*/
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.introduced {
+	margin: 0px;
+	padding-top: 0px;
+}
+
+.privet {
+	color: #777777;
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-family: "Bodoni", Bookman, Georgia, serif;
+}
+
+h1,h2,h3 {
+	color: #777777;
+	font-family: "Bodoni", Bookman, Georgia, serif;
+}
+
+h1 {
+	font-size: 1.5rem;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+h2 {
+	font-size: 1.3rem;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: normal;
+}
+
+ol, ul {
+	margin: 0px;
+	padding: 0px 0px 0px 20px;
+}
+
+.container {
+	display: flex;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 30px;
+}
+
+.first_column {
+	width: 150px;
+	min-width: 150px;
+	padding: 10px 10px 0px;
+	/*border: thin solid;*/
+}
+
+
+.second_column {
+	width: 1000px;
+	min-width: 345px;
+	padding: 10px;
+	/*border: thin solid;*/
+}
+
+.footer {
+	background-color: #1b3254;
+	border-top: 2px solid;
+	border-color: #08d6d4;
+	color: #fff;
+	padding: 20px 0px 40px;
+
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+#link_footer {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#link_footer:hover {
+	color: #08d6d4;
+}
